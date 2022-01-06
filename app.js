@@ -58,5 +58,6 @@ io.on('connection', (socket) => {
 })
 
 module.exports = {
-    httpServer
+    httpServer,
+    app
 }
